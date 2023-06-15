@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hwb(220 73% 5%);
+}
+.c-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  border: 2px solid rgb(55, 119, 238);
+  border-radius: 10px;
+  background-color: rgb(221, 227, 233);
+}
+label {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.c-wrap {
+  padding: 0.4rem 0 1.5rem 1rem;
+}
+h2 {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+
+button {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem;
+  font-weight: 800;
+  background-color: rgb(37, 125, 232);
+}

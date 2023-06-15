@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(225, 220, 220);
+}
+
+.c-container {
+  width: 80%;
+  height: auto;
+  margin: 3rem auto;
+  padding-top: 3rem;
+  background-color: white;
+}
+.c-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.c-input {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+}
+.c-button {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: 1rem;
+  background-color: rgb(64, 122, 141);
+  color: #fff;
+}
+.c-button-div {
+  padding: 0.5rem 1rem;
+}
+
+label {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  text-align: left;
+}
+input {
+  padding: 0.4rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+select {
+  padding: 0.4rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+p {
+  text-align: center;
+  font-size: 2rem;
+}

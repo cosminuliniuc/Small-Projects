@@ -1,0 +1,49 @@
+.c-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.c-points {
+  text-transform: uppercase;
+}
+.c-game {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+.c-description {
+  text-align: center;
+  margin-top: -25px;
+  padding: 0;
+  font-size: smaller;
+}
+.c-letter-element {
+  display: flex;
+  justify-content: center;
+}
+.c-letter {
+  margin-left: 5px;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #093824;
+  border-radius: 4px;
+}
+.c-alphabet-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+.c-alphabet {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  padding: 0.6rem;
+}
